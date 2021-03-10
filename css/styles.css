@@ -8,17 +8,23 @@ body {
 }
 
 .title {
-  text-align: center;
   color:teal;
-  background-color: palevioletred;
-  border-style: dashed;
-  border-color: pink;
-  border-radius: 15px;
 }
 
 .content-box {
+  text-align: center;
   box-sizing: content-box;
   width: 350px;
-  margin-left: 480px;
+  margin-left: 510px;
+  margin-right: 500px;
+  border-style: dashed;
+  border-color: pink;
+  border-radius: 15px;
+  background-color: palevioletred;
+}
+
+.main-menu {
+  list-style-type: none;
+  display: inline;
 }
 
