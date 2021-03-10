@@ -1,10 +1,11 @@
 body {
-  background-image: url(/images/background.jpg);
+  background-image: url(/images/index-background.jpg);
 }
 
 .best {
-  font-style: italic;
+  font-style: italic, bold;
   color: darkmagenta;
+  background-color: lavender;
 }
 
 .title {
@@ -28,3 +29,16 @@ body {
   display: inline;
 }
 
+p {
+  font-size: 30px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+img {
+  margin-right: 370px;
+  margin-left: 370px;
+  border-radius: 15px;
+  border-style: groove;
+  border-color: lightcoral;
+}
